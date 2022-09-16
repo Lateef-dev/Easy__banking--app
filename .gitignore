@@ -12,4 +12,13 @@
 *.fig
 
 # Avoid your project being littered with annoying .DS_Store files!
+.gitignore
 .DS_Store
+node_modules
+design
+PublicSans-Italic-VariableFont_wght.ttf
+PublicSans-VariableFont_wght.ttf
+Readme.txt
+Readme.md
+style-guide.md
+
