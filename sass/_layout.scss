@@ -1,0 +1,18 @@
+.nav {
+    background-color: $color-white;
+    padding-bottom: 0;
+}
+
+.about {
+    background-color: $color-secondary--2;
+}
+
+.article {
+    background-color: rgba($color-secondary--1, .7);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(233, 26%, 24%);
+}

@@ -1,0 +1,18 @@
+{
+  "name": "easybank-landing-page-master",
+  "version": "1.0.0",
+  "description": "A banking application ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:sass": "sass sass/main.scss  css/style.css -w",
+    "devserver": "live-server",
+    "start": "npm-run-all --parallel devserver watch:sass"
+  },
+  "author": "lateef sulaiman",
+  "license": "ISC",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.54.9"
+  }
+}

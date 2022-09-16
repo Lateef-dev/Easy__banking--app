@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'Public sans';
+    src: url('../static/PublicSans-Regular.ttf');
+}
+
+// VARIABLES
+$color-primary--1: hsl(136, 65%, 51%);
+$color-primary--3: hsl(136, 65%, 51%);
+$color-primary--4: hsl(192, 70%, 51%, .7);
+
+$color-secondary--1: hsl(0, 0%, 98%);
+$color-secondary--2: hsl(220, 16%, 96%);
+
+
+$color--text: hsl(233, 8%, 62%);
+$color-white: hsl(0, 0, 100%);
+$color-black: hsl(0, 0%, 0%);
+$color-overlay: hsl(233, 26%, 24%);
+
+*,
+* ::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    color: $color--text;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Public sans', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.4;
+    position: relative;
+}
+
+.hidden {
+    display: none;
+}
+
+.overlay {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 800;
+    background-color: rgba($color-overlay, .3);
+}
+
+@media only screen and (max-width: 60em) {
+    html {
+        font-size: 60%;
+    }
+}
+
+@media only screen and (max-width: 56.25em) {
+    html {
+        font-size: 58%;
+    }
+
+    body {
+        font-size: 1.6rem;
+    }
+}
+
+@media only screen and (max-width: 48.75em) {
+
+    body {
+        font-size: 1.6rem;
+    }
+}
+
+@media only screen and (max-width: 37.5em) {
+    html {
+        font-size: 54%;
+    }
+
+    body {
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (max-width: 31.25em) {
+    html {
+        font-size: 56%;
+    }
+
+    body {
+        font-size: 1.6rem;
+    }
+}
+
+@media only screen and (max-width: 18.75em) {
+    html {
+        font-size: 54%;
+    }
+}
