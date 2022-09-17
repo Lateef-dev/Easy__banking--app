@@ -11,8 +11,7 @@
 *.xd
 *.fig
 
-# Avoid your project being littered with annoying .DS_Store files!
-.gitignore
+# Avoid your project being littered with annoying .DS_Store file
 .DS_Store
 node_modules
 design
